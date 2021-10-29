@@ -1,5 +1,4 @@
 const students = [
-    "Timothy", 
     "Emily", 
     "Ramon", 
     "Eduardo", 
@@ -32,7 +31,9 @@ const students = [
 const benched = [
     "Devonte", 
     "Juan",
-    "Justin"
+    "Justin",
+    "Timothy"
+
 ]
 
 const newRandomStudent = () => {
@@ -40,6 +41,11 @@ const newRandomStudent = () => {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    students.forEach((student)=>{
+        let liSTudent = document.createElement("li")
+        liSTudent.textContent = student
+        roster.appendChild(liSTudent)
+    })
     console.log(`Number of students: ${students.length}`)
     button.addEventListener('click', ()=>{
         console.log("hullo")
