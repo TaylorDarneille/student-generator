@@ -33,7 +33,6 @@ const benched = [
     "Juan",
     "Justin",
     "Timothy"
-
 ]
 
 const newRandomStudent = () => {
