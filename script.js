@@ -1,4 +1,39 @@
-const students = ["Timothy", "Emily", "Ramon", "Eduardo", "Azikoue", "Michael", "Kelly", "Paulina", "Hannah", "Shuzel", "Steven", "Christos", "Isaac", "Juan", "Lawrence", "Devonte", "Cory", "Justin", "Hector", "Galyver", "Dagem", "Devin", "Derrick", "Lindsay", "Jason", "Goro", "Dino", "Jonathan", "Mackenzie", "Ana", "Isaac", "Jerry"]
+const students = [
+    "Timothy", 
+    "Emily", 
+    "Ramon", 
+    "Eduardo", 
+    "Michael", 
+    "Kelly", 
+    "Paulina", 
+    "Hannah", 
+    "Shuzel", 
+    "Steven", 
+    "Christos", 
+    "Isaac N.", 
+    "Isaac W.", 
+    "Lawrence",
+    "Cory", 
+    "Hector", 
+    "Galyver", 
+    "Dagem", 
+    "Devin", 
+    "Derrick", 
+    "Lindsay", 
+    "Jason", 
+    "Goro", 
+    "Dino", 
+    "Jonathan", 
+    "Mackenzie", 
+    "Ana", 
+    "Jerry"
+]
+
+const benched = [
+    "Devonte", 
+    "Juan",
+    "Justin"
+]
 
 const newRandomStudent = () => {
     return students[Math.floor(Math.random()*students.length)]
