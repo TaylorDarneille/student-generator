@@ -1,10 +1,49 @@
-const students = ["Timothy", "Emily", "Ramon", "Eduardo", "Azikoue", "Michael", "Kelly", "Paulina", "Hannah", "Shuzel", "Steven", "Christos", "Isaac", "Juan", "Lawrence", "Devonte", "Cory", "Justin", "Hector", "Galyver", "Dagem", "Devin", "Derrick", "Lindsay", "Jason", "Goro", "Dino", "Jonathan", "Mackenzie", "Ana", "Isaac", "Jerry"]
+const students = [
+    "Emily", 
+    "Ramon", 
+    "Eduardo", 
+    "Michael", 
+    "Kelly", 
+    "Paulina", 
+    "Hannah", 
+    "Shuzel", 
+    "Steven", 
+    "Christos", 
+    "Isaac N.", 
+    "Isaac W.", 
+    "Lawrence",
+    "Cory", 
+    "Hector", 
+    "Galyver", 
+    "Dagem", 
+    "Devin", 
+    "Derrick", 
+    "Lindsay", 
+    "Jason", 
+    "Goro", 
+    "Dino", 
+    "Jonathan", 
+    "Mackenzie", 
+    "Ana", 
+    "Jerry",
+    "Juan"
+]
+
+const benched = [
+    "Justin",
+    "Timothy"
+]
 
 const newRandomStudent = () => {
     return students[Math.floor(Math.random()*students.length)]
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    students.forEach((student)=>{
+        let liSTudent = document.createElement("li")
+        liSTudent.textContent = student
+        roster.appendChild(liSTudent)
+    })
     console.log(`Number of students: ${students.length}`)
     button.addEventListener('click', ()=>{
         console.log("hullo")
