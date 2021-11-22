@@ -25,7 +25,6 @@ const students = [
     "Jonathan", 
     "Mackenzie", 
     "Ana", 
-    "Jerry",
     "Juan"
 ]
 
