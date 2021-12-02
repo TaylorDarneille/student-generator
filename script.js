@@ -1,16 +1,16 @@
 const students = [
     "Emily", 
     "Ramon", 
-    "Eduardo", 
-    "Michael", 
+    "Eddy", 
+    "Mike", 
     "Kelly", 
     "Paulina", 
     "Hannah", 
     "Shuzel", 
     "Steven", 
     "Christos", 
-    "Isaac N.", 
-    "Isaac W.", 
+    "Isaac N.",
+    "Juan", 
     "Lawrence",
     "Cory", 
     "Hector", 
@@ -24,14 +24,12 @@ const students = [
     "Dino", 
     "Jonathan", 
     "Mackenzie", 
-    "Ana", 
-    "Juan"
+    "Ana",
+    "Isaac W",
+    "Jerry"
 ]
 
-const benched = [
-    "Justin",
-    "Timothy"
-]
+const benched = []
 
 const newRandomStudent = () => {
     return students[Math.floor(Math.random()*students.length)]
